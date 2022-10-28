@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+header{
+    display:flex;
+  justify-content:center;
+}
+main {
+  margin: 5% auto;
+  align-items:center;
+}
+
+.content {
+  display:flex;
+  justify-content:center;
+  }
+.first-content {
+  background-color: hsl(31, 77%, 52%);
+  padding:3em;
+}
+.second-content {
+  background-color: hsl(184, 100%, 22%);
+  padding:3em;
+}
+.third-content {
+  background-color: hsl(179, 100%, 13%);
+  padding:3em;
+}
+h2{
+  font-family: 'Big Shoulders Display', cursive;
+  color:hsl(0, 0%, 95%);
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(0, 0%, 95%);
+  
+}
+
+button{
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  margin: auto;
+} 
+
+  @media only screen and (min-width: 347px) and (max-width: 1440px)  {
+body {
+  background-color:  hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+main {
+  
+}
+
+.content {
+  margin:auto;
+  width:140vh;
+  display:flex;
+  flex:column;
+  align-items: flex-inline;
+}
+.first-content {
+  background-color: hsl(31, 77%, 52%);
+  padding:3em;
+}
+.second-content {
+  background-color: hsl(184, 100%, 22%);
+  padding:3em;
+}
+.third-content {
+  background-color: hsl(179, 100%, 13%);
+  padding:3em;
+}
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color:hsl(0, 0%, 95%);
+  font-weight:700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size:15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight:400;
+  padding-bottom: 10px;
+  margin-right:-25px;
+}
+
+button{
+  background-color: hsl(0, 0%, 95%);
+  cursor:pointer;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: capitalize;
+  padding-left: 15PX;
+  padding-right: 10PX;
+   padding-top: 5PX;
+  padding-bottom: 5PX;
+  border-radius: 30px;
+  border: none;
+} 
+
+button:focus, button:hover {
+  background-color: transparent;
+  border: 2px solid  hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  text-transform: capitalize;
+
+} 
+  }
